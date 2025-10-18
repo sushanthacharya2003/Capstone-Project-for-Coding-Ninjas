@@ -167,7 +167,7 @@ header{
     color: var(--secondary-color);
 }
 .btn{
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .btn a{
@@ -311,9 +311,37 @@ header{
     filter: invert(1);
 }
 
+/* learning plan section*/
 
+.form-container{
+    display: flex;
+    background-image: url(../assets/images/plan-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+}
+.plan-img{
+    width: 50%;
+    height: 100%;
+    margin-left: 1.5rem;
+}
+.firstline{
+    display: flex;
+    gap: 1rem;
+}
+.form-label{
+    color: var(--bg-color);
+    font-weight: bold;
+}
+form{
+    margin: 2rem;
+}
 
-
+.subscribe{
+    margin-top: 1rem;
+    background-color: var(--link-color);
+    color: var(--bg-color);
+}
 @keyframes slide-in {
     0%{
         opacity: 0;
@@ -335,6 +363,18 @@ header{
         font-size: 0.8rem;
         padding: 0.5rem 1rem;
         white-space: nowrap;
+    }
+    .testimonial-card img{
+        display: none;
+    }
+    .testimonial-card p{
+        font-size: 1rem;
+    }
+    .testimonial-card h4{
+        font-size: large;
+    }
+    .testimonial-card .subtitle{
+        font-size: large;
     }
 
    
@@ -361,6 +401,9 @@ header{
 
      .course-list li{
         flex-direction: column;
+     }
+     .plan-img{
+        display: none;
      }
 }
 
