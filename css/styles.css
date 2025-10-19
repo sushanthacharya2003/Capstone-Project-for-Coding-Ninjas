@@ -320,9 +320,9 @@ header{
     width: 100%;
     height: 30rem;
 }
-.plan-img{
-    width: 50%;
-    height: 100%;
+.ladyimg{
+    width: 100%;
+    height: 30rem;
     margin-left: 1.5rem;
 }
 .firstline{
@@ -333,15 +333,34 @@ header{
     color: var(--bg-color);
     font-weight: bold;
 }
-form{
+.learning-form{
     margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.subscribe{
+form .subscribe{
     margin-top: 1rem;
+    width: 8rem;
     background-color: var(--link-color);
     color: var(--bg-color);
+    border-radius: 0.5rem;
+    height: 2rem;
+    border: solid 1px white;
 }
+
+form .subscribe:hover{
+    transform: scale(1.2);
+}
+
+.form-control, .form-select{
+    background-color: var(--dark-bg-color) !important;
+    color: var(--bg-color) !important;
+    box-sizing: border-box !important;
+}
+
 @keyframes slide-in {
     0%{
         opacity: 0;
@@ -376,7 +395,9 @@ form{
     .testimonial-card .subtitle{
         font-size: large;
     }
-
+    .ladyimg{
+        display: none;
+    }
    
 }
 
