@@ -321,9 +321,9 @@ header{
     height: 30rem;
 }
 .ladyimg{
-    width: 100%;
+    width: 80%;
     height: 30rem;
-    margin-left: 1.5rem;
+    margin-left: 5rem;
 }
 .firstline{
     display: flex;
@@ -338,6 +338,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5rem;
 
 }
 
